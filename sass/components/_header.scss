@@ -1,11 +1,18 @@
 .header {
-  position: relative;
 
-  background-color: var(--white-color);
-  border-bottom: 1px solid var(--border-color);
-
-  &__container {
-    align-items: center;
-    // justify-content: space-between;
+  @media (min-width: 768px) {
+    // width: 768px;
   }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    position: relative;
+    background-color: var(--white-color);
+    border-bottom: 1px solid var(--border-color);
+  
+    &__container {
+      align-items: center;
+      // justify-content: space-between;
+    }
+  }  
 }

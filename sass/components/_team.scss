@@ -1,16 +1,39 @@
-
 .team {
-  background-color: var(--secondary-background-color);
+
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    background-color: var(--secondary-background-color);
+  }  
 }
 
 .team .card__thumb {
-  max-height: 260px;
+
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    max-height: 260px;
+  }  
 }
 
 
 .team__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }  
 }

@@ -21,28 +21,56 @@ img {
 }
 
 .card-content {
-  padding: 30px 32px;
-  text-align: center;
 
-  /* padding-bottom: 30px; */
-  /* outline: 1px dotted tomato; */
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    padding: 30px 32px;
+    text-align: center;
+  }  
 }
 
 .card__title {
-  color: var(--secondary-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  }  
 }
 
 .card-item {
-  margin-top: 10px;
 
-  color: var(--primary-color);
-  font-size: 16px;
-  line-height: 1.19;
-} /* end of main section */
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 1.19;
+  }  
+} 
 
 .card__text {
-  line-height: 1.85;
+
+  @media (min-width: 768px) {
+    // width: 768px;
+  }
+  
+  @media (min-width:1200px) {
+    // width: 1200px;
+    line-height: 1.85;
+  }    
 }
